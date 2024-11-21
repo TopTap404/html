@@ -18,6 +18,6 @@ async function fetchTemperature() {
     }
   }
   
-  document.getElementById('refreshButton').addEventListener('click', fetchTemperature);
-  
+  setInterval(fetchTemperature, 5000);
+
   window.onload = fetchTemperature;
