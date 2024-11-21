@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Display Temperature Data</title>
-  <link rel="stylesheet" href="styles.css"> 
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+  <div class="stars"></div>
   <div class="container">
-    <h1>Temperature Data</h1>
-    <p id="temperatureDisplay">Loading temperature...</p>
+    <div class="temperature container">
+      <h1>Temperature Data</h1>
+      <img src="./img/thermometer-temperature-svgrepo-com.svg" alt="Temperature Image" class="temperature-image">
+      <p id="temperatureDisplay">Loading temperature...</p>
+    </div>
+    <div class="humidity container">
+      <h1>Humidity Data</h1>
+      <img src="./img/humidity-svgrepo-com.svg" alt="Humidity Image" class="humidity-image">
+      <p id="humidityDisplay">Loading humidity...</p>
+    </div>
   </div>
-  <script src="script.js"></script> 
+  <script src="script.js"></script>
 </body>
+
 </html>
