@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles-register.css">
 </head>
 
 <body>
@@ -17,24 +17,24 @@
     <h1>Flowglow</h1>
   </div>
   <div class="form-container">
-    <h2>Sign In</h2>
-    <form id="loginForm" method="POST">
+    <h2>Sign Up</h2>
+    <form id="registerform" method="POST">
       <div class="input-box">
         <input type="email" id="email" placeholder="Email" required>
       </div>
       <div class="input-box">
         <input type="password" id="password" placeholder="Password" required>
       </div>
-      <div class="forgot-password">
-        <a href="#">Forgot your Password ?</a>
+      <div class="input-box">
+        <input type="password" id="cfpassword" placeholder=" Comfirm Password" required>
       </div>
-      <button type="submit" class="button">Sign In</button>
-      <div class="register">
-        <p>Don't have an account ? <a href="register.html">Register</a></p>
+      <div class="button-container">
+        <button type="submit" class="button" onclick="window.history.back()">Sign Up</button>
+        <button onclick="window.history.back()" class="button">Back</button>
       </div>
     </form>
   </div>
-  <script src="script.js"></script>
+  <script src="script-register.js"></script>
 </body>
 
 </html>

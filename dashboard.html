@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Temperature Data</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles-dashboard.css">
+</head>
+
+<body>
+  <img src="../html/img/Arrow 1.svg 1.svg" alt="Logo" class="logo" onclick="window.history.back()">
+  <div class="Dashboard">
+    <h1>Dashboard</h1>
+  </div>
+  <div class="All-Dashboard">
+    <div class="Container-time">
+      <div class="Clock">
+        <div id="time">
+          <span id="hours">00</span>
+          <span>:</span>
+          <span id="minutes">00</span>
+          <span id="ampm"></span>
+        </div>
+        <div id="date"></div>
+      </div>
+    </div>
+    <div class="Temperature">
+      <p id="temperatureDisplay">Loading Temperature..</p>
+    </div>
+    <div class="Humidity">
+      <p id="humidityDisplay">Loading Humidity..</p>
+    </div>
+  </div>
+  <script src="dashboard.js"></script>
+</body>
+
+</html>

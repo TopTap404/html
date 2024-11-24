@@ -27,6 +27,7 @@ body {
 .form-container {
   width: 500px;
   background-color: transparent;
+
 }
 
 .form-container h2 {
@@ -67,27 +68,16 @@ body {
   color: #999999;
 }
 
-.forgot-password {
-  text-align: right;
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.forgot-password a {
-  text-align: right;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  text-decoration: none;
-  color: purple;
-}
-
-.forgot-password a:hover {
-  text-decoration: none;
-}
-
-.button {
-  margin-top: 10px;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  width: 50%;
+.button-container .button {
+  margin: 20px;
+  width: 100%;
   height: 50px;
   border: #00F0FF;
   border-radius: 20px;
@@ -99,9 +89,7 @@ body {
 }
 
 .button:hover {
-  margin-top: 10px;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  margin: 20px;
   width: 50%;
   height: 50px;
   border: #00F0FF;
@@ -110,19 +98,5 @@ body {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
-}
-
-.register {
-  text-align: left;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  text-decoration: none;
-  color: purple;
-}
-
-.register a {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  text-decoration: none;
-  color: #00F0FF;
+  cursor: pointer;
 }
